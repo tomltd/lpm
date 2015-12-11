@@ -30,12 +30,18 @@ font-family: 'Raleway', sans-serif;
 .navbar .nav > li > a, .navbar .nav > li > a:first-letter,
 .navbar .nav > li.current-menu-item > a,
 .navbar .nav > li.current-menu-ancestor > a {
-
-
 font-family: 'Raleway', sans-serif;
 }
 
+img {
+  border-radius: 4px;
+}
 
+@media (max-width: 990px) {
+  .thumbnail {
+    border: 0;
+  }
+}
 
 
 .thumbnail-description p {
