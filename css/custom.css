@@ -37,13 +37,6 @@ img {
   border-radius: 4px;
 }
 
-@media (max-width: 990px) {
-  .thumbnail {
-    border: 0;
-  }
-}
-
-
 .thumbnail-description p {
 font-family: 'PT Serif', serif;
 font-style: italic;
@@ -53,4 +46,27 @@ text-align: center;
 
 .thumbnail-description {
 margin-bottom: 30px;
+}
+
+
+@media (max-width: 990px) {
+  .thumbnail {
+    border: 0;
+  }
+  .jumbotron {
+    background-size: cover;
+  }
+  .jumbotron h1 {
+    margin-top: 104px;
+  }
+}
+
+@media (max-width: 767px) {
+  .jumbotron {
+    background-size: cover;
+      color: azure;
+  }
+  .jumbotron p {
+    font-size: 1em;
+  }
 }
